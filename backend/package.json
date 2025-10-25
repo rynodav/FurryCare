@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
- 
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
@@ -9,9 +8,9 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "express": "^4.19.2",
-    "mongoose": "^8.6.0"
+    "mongoose": "^8.19.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
