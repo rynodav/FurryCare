@@ -60,7 +60,7 @@ npm run dev
 ```
     🌐 App runs on: http://localhost:5173
 
-📁 Folder Structure
+## 📁 Folder Structure
 
 FurryCare/
 ├── backend/
