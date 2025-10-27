@@ -106,7 +106,9 @@ FurryCare/
 
 **Ryno Davis**
 📍 South Africa
-🐾 Passionate about smart tech for pet care
-📄 License
+🐾 Passionate about smart tech for pet care 
 
+--- 
+
+## 📄 License
 MIT License © 2025 Ryno Davis
