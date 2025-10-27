@@ -33,28 +33,31 @@ It helps pet owners manage their pets and stay on top of important care reminder
 ```bash
 git clone https://github.com/rynodav/FurryCare.git
 cd FurryCare
+```
+--- 
 
-2️⃣ Backend Setup
-
+### 2️⃣ Backend Setup
+```bash 
 cd backend
-npm install
-
-Create a .env file inside the backend folder:
-
+npm install 
+```
+## Create a .env file inside the backend folder:
+```bash 
 PORT=4000
 MONGODB_URI=mongodb://localhost:27017/furrycare
 CORS_ORIGIN=http://localhost:5173
-
-Start the backend:
-
+```
+### Start the backend:
+```bash
 node src/server.js
+```
 
-3️⃣ Frontend Setup
-
+## 3️⃣ Frontend Setup
+```bash
 cd ../frontend
 npm install
 npm run dev
-
+```
     🌐 App runs on: http://localhost:5173
 
 📁 Folder Structure
