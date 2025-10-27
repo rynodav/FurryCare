@@ -31,7 +31,7 @@ It helps pet owners manage their pets and stay on top of important care reminder
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/FurryCare.git
+git clone https://github.com/<rynodav>/FurryCare.git
 cd FurryCare
 
 2️⃣ Backend Setup:  
