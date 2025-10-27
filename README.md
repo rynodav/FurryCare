@@ -102,9 +102,9 @@ FurryCare/
 
     🧪 Testing and API documentation
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Ryno Davis
+**Ryno Davis**
 📍 South Africa
 🐾 Passionate about smart tech for pet care
 📄 License
