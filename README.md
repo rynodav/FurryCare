@@ -22,7 +22,7 @@ It helps pet owners manage their pets and stay on top of important care reminder
 | Frontend | React + Vite |
 | Backend | Node.js + Express |
 | Database | MongoDB |
-| Styling | CSS / Tailwind (optional) |
+| Styling | CSS |
 | Notifications | React Toastify |
 
 ---
@@ -31,27 +31,34 @@ It helps pet owners manage their pets and stay on top of important care reminder
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<rynodav>/FurryCare.git
+git clone https://github.com/rynodav/FurryCare.git
 cd FurryCare
 
-2️⃣ Backend Setup:  
+2️⃣ Backend Setup
+
 cd backend
-npm install 
+npm install
 
 Create a .env file inside the backend folder:
+
 PORT=4000
 MONGODB_URI=mongodb://localhost:27017/furrycare
-CORS_ORIGIN=http://localhost:5173 
+CORS_ORIGIN=http://localhost:5173
 
-Starting the backend: 
-node src/server.js 
+Start the backend:
 
-3️⃣ Frontend Setup: 
-cd ../frontend 
-npm install 
-npm run dev 
+node src/server.js
 
-📁 Folder Structure: 
+3️⃣ Frontend Setup
+
+cd ../frontend
+npm install
+npm run dev
+
+    🌐 App runs on: http://localhost:5173
+
+📁 Folder Structure
+
 FurryCare/
 ├── backend/
 │   ├── src/
@@ -70,24 +77,33 @@ FurryCare/
 │
 └── README.md
 
-🧩 Current MVP: 
-CRUD for Pets and Reminders
-Overdue styling
-Toast notifications
-Functional connection between frontend ↔ backend ↔ MongoDB
- 
-🚀 Future Enhancements:
-📬 Email or push notifications
-🔐 Authentication (login system)
-📊 Dashboard with analytics
-☁️ Deployment (Render / Railway / Xneelo)
-🧪 Testing and API documentation 
+🧩 Current MVP
 
-👨‍💻 Author 
-Ryno Davis 
-South Africa 
-🐾 Passionate about smart tech for pet care 
+    CRUD for Pets and Reminders
 
-📄 License 
-MIT Licence © 2025 Ryno Davis 
+    Overdue styling
 
+    Toast notifications
+
+    Functional connection between frontend ↔ backend ↔ MongoDB
+
+🚀 Future Enhancements
+
+    📬 Email or push notifications
+
+    🔐 Authentication (login system)
+
+    📊 Dashboard with analytics
+
+    ☁️ Deployment (Render / Railway / Xneelo)
+
+    🧪 Testing and API documentation
+
+👨‍💻 Author
+
+Ryno Davis
+📍 South Africa
+🐾 Passionate about smart tech for pet care
+📄 License
+
+MIT License © 2025 Ryno Davis
