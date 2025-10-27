@@ -41,7 +41,7 @@ cd FurryCare
 cd backend
 npm install 
 ```
-## Create a .env file inside the backend folder:
+### Create a .env file inside the backend folder:
 ```bash 
 PORT=4000
 MONGODB_URI=mongodb://localhost:27017/furrycare
