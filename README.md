@@ -1,16 +1,93 @@
-# React + Vite
+# 🐾 FurryCare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FurryCare is a **Pet Care Reminder Web App** built with **React + Vite (frontend)**, **Express.js (backend)**, and **MongoDB (database)**.  
+It helps pet owners manage their pets and stay on top of important care reminders — like vaccinations, deworming, grooming, and vet visits.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🐕 **Pet Management** — Add, view, update, and delete pets  
+- ⏰ **Reminders System** — Set and manage care reminders  
+- ⚠️ **Overdue Highlighting** — Visually marks reminders that are overdue  
+- 🔔 **Toast Notifications** — Feedback for successful actions  
+- 💾 **Full CRUD Functionality** (Frontend ↔ Backend ↔ Database)  
+- 📱 **Responsive UI** — Works smoothly on desktop and mobile  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧰 Tech Stack
 
-## Expanding the ESLint configuration
+| Layer | Technology |
+|-------|-------------|
+| Frontend | React + Vite |
+| Backend | Node.js + Express |
+| Database | MongoDB |
+| Styling | CSS / Tailwind (optional) |
+| Notifications | React Toastify |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/FurryCare.git
+cd FurryCare
+
+2️⃣ Backend Setup:  
+cd backend
+npm install 
+
+Create a .env file inside the backend folder:
+PORT=4000
+MONGODB_URI=mongodb://localhost:27017/furrycare
+CORS_ORIGIN=http://localhost:5173 
+
+Starting the backend: 
+node src/server.js 
+
+3️⃣ Frontend Setup: 
+cd ../frontend 
+npm install 
+npm run dev 
+
+📁 Folder Structure: 
+FurryCare/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── server.js
+│   └── .env
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   └── vite.config.js
+│
+└── README.md
+
+🧩 Current MVP: 
+CRUD for Pets and Reminders
+Overdue styling
+Toast notifications
+Functional connection between frontend ↔ backend ↔ MongoDB
+ 
+🚀 Future Enhancements:
+📬 Email or push notifications
+🔐 Authentication (login system)
+📊 Dashboard with analytics
+☁️ Deployment (Render / Railway / Xneelo)
+🧪 Testing and API documentation 
+
+👨‍💻 Author 
+Ryno Davis 
+South Africa 
+🐾 Passionate about smart tech for pet care 
+
+📄 License 
+MIT Licence © 2025 Ryno Davis 
+
