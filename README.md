@@ -61,7 +61,7 @@ npm run dev
     🌐 App runs on: http://localhost:5173
 
 ## 📁 Folder Structure
-
+```bash
 FurryCare/
 ├── backend/
 │   ├── src/
@@ -79,7 +79,7 @@ FurryCare/
 │   └── vite.config.js
 │
 └── README.md
-
+```
 🧩 Current MVP
 
     CRUD for Pets and Reminders
