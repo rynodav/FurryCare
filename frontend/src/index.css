@@ -53,7 +53,7 @@ button {
 
 /* Button hover effect */
 button:hover {
-  border-color: #646cff;
+  border-color: #f77a05;
 }
 
 /* Accessibility: visible focus styles for keyboard users */
