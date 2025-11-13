@@ -156,7 +156,10 @@ export default function PetReminders({ petId }) {
 
                   {/* Due date + frequency */}
                   <div className="text-sm opacity-80">
-                    Due: {new Date(r.dueAt).toLocaleString()} • {r.frequency}
+                    Due: {new Date(r.dueAt).toLocaleString([], {
+                    dateStyle: 'short',
+                    timeStyle: 'short'
+                  })} • {r.frequency}
                   </div>
                 </div>
 
