@@ -132,10 +132,14 @@ export default function PetReminders({ petId }) {
 
             return (
               <li
-                key={r._id}
-                className="p-3 rounded border flex items-center justify-between"
-                style={isOverdue ? { borderColor: 'red' } : {}}
-              >
+                  key={r._id}
+                  className={`
+                    p-3 rounded-xl border flex items-center justify-between gap-3 transition
+                    ${isCompleted ? 'border-green-500 bg-green-50' : ''}
+                    ${!isCompleted && isOverdue ? 'border-red-500 bg-red-50' : ''}
+                    ${!isCompleted && !isOverdue ? 'border-slate-300 bg-white' : ''}
+                  `}
+                >
                 <div>
                   {/* Reminder title */}
                   <div
