@@ -117,7 +117,7 @@ export default function PetReminders({ petId }) {
   // UI: reminder list + form
   return (
     <div>
-      <h2 className="text-xl font-semibold mb-2">Reminders</h2>
+      {/* <h2 className="text-xl font-semibold mb-2">Reminders</h2> */}
 
       {/* Reminders list */}
       {loading ? (

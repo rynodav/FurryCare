@@ -29,6 +29,9 @@ export default function Pets() {
   // Loading indicator for initial fetch
   const [loading, setLoading] = useState(false);
 
+  // Get the full pet object for the currently selected pet
+  const activePet = pets.find(p => p._id === activePetId) || null;
+
   /**
    * Load pets from backend API
    * If no pet is selected yet, auto-select the first one
@@ -166,6 +169,9 @@ export default function Pets() {
 
       {/* RIGHT SIDE: Pet Reminders */}
       <div>
+        <h2 className="text-xl font-semibold mb-2">
+          {activePet ? `Reminders for ${activePet.name}` : 'Reminders'}
+        </h2>
         <PetReminders petId={activePetId} />
       </div>
     </div>
