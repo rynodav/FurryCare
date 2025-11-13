@@ -158,7 +158,7 @@ export default function Pets() {
           </div>
 
           {/* Submit button */}
-          <button className="px-3 py-2 rounded bg-black text-white">
+          <button className="px-4 py-2 rounded-xl font-medium bg-orange-600 text-white hover:bg-orange-700 transition">
             Save Pet
           </button>
         </form>
