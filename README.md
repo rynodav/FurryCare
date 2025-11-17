@@ -22,7 +22,7 @@ It helps pet owners manage their pets and stay on top of important care reminder
 | Frontend | React + Vite |
 | Backend | Node.js + Express |
 | Database | MongoDB |
-| Styling | CSS |
+| Styling | TailwindCSS |
 | Notifications | React Toastify |
 
 ---
